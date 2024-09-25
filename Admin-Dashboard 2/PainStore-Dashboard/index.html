@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title> PaintStore</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- Sidebar Section -->
+        <aside>
+            <div class="toggle">
+                <div class="logo">
+                    <img src="images/logo.jpeg" alt="PaintStore Logo">
+                    <h2>Paint<span class="danger">Store</span></h2>
+                </div>
+                <div class="close" id="close-btn">
+                    <span class="material-icons-sharp">
+                        close
+                    </span>
+                </div>
+            </div>
+
+            <div class="sidebar">
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        dashboard
+                    </span>
+                    <h3>Overview</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        palette
+                    </span>
+                    <h3>Paints</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        history
+                    </span>
+                    <h3>Orders</h3>
+                </a>
+                <a href="#" class="active">
+                    <span class="material-icons-sharp">
+                        insights
+                    </span>
+                    <h3>Sales Statistics</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        mail
+                    </span>
+                    <h3>Messages</h3>
+                    <span class="message-count">8</span>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        store
+                    </span>
+                    <h3>Products</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        analytics
+                    </span>
+                    <h3>Reports</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        settings
+                    </span>
+                    <h3>Settings</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        person_add
+                    </span>
+                    <h3>Add User</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        logout
+                    </span>
+                    <h3>Logout</h3>
+                </a>
+            </div>
+        </aside>
+        <!-- End of Sidebar Section -->
+
+        <!-- Main Content -->
+        <main>
+            <h1>Sales Statistics</h1>
+            <!-- Analytics Section -->
+            <div class="analyse">
+                <div class="sales">
+                    <div class="status">
+                        <div class="info">
+                            <h3>Total Sales</h3>
+                            <h1>$102,300</h1>
+                        </div>
+                        <div class="progresss">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="percentage">
+                                <p>+78%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="visits">
+                    <div class="status">
+                        <div class="info">
+                            <h3>Store Visits</h3>
+                            <h1>25,190</h1>
+                        </div>
+                        <div class="progresss">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="percentage">
+                                <p>-12%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="searches">
+                    <div class="status">
+                        <div class="info">
+                            <h3>Paint Queries</h3>
+                            <h1>15,450</h1>
+                        </div>
+                        <div class="progresss">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="percentage">
+                                <p>+22%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End of Analytics Section -->
+
+            <!-- New Users Section -->
+            <div class="new-users">
+                <h2>New Registrations</h2>
+                <div class="user-list">
+                    <div class="user">
+                        <img src="images/user1.jpeg" alt="User Profile">
+                        <h2>Rohit</h2>
+                        <p>Just Now</p>
+                    </div>
+                    <div class="user">
+                        <img src="images/user2.jpeg" alt="User Profile">
+                        <h2>Sonal</h2>
+                        <p>1 Hour Ago</p>
+                    </div>
+                    <div class="user">
+                        <img src="images/user3.jpeg" alt="User Profile">
+                        <h2>Priya</h2>
+                        <p>3 Hours Ago</p>
+                    </div>
+                    <div class="user">
+                        <img src="images/user4.jpeg" alt="User Profile">
+                        <h2>View More</h2>
+                        <p>All Users</p>
+                    </div>
+                </div>
+            </div>
+            <!-- End of New Users Section -->
+
+            <!-- Recent Orders Table -->
+            <div class="recent-orders">
+                <h2>Recent Orders</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Item Name</th>
+                            <th>Order Number</th>
+                            <th>Payment</th>
+                            <th>Status</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Acrylic Paint Set</td>
+                            <td>#56789</td>
+                            <td>Completed</td>
+                            <td>Shipped</td>
+                            <td><a href="#">Details</a></td>
+                        </tr>
+                        <tr>
+                            <td>Watercolor Kit</td>
+                            <td>#56790</td>
+                            <td>Pending</td>
+                            <td>Processing</td>
+                            <td><a href="#">Details</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <a href="#">View All Orders</a>
+            </div>
+            <!-- End of Recent Orders -->
+        </main>
+        <!-- End of Main Content -->
+
+        <!-- Right Section -->
+        <div class="right-section">
+            <div class="nav">
+                <button id="menu-btn">
+                    <span class="material-icons-sharp">
+                        menu
+                    </span>
+                </button>
+                <div class="dark-mode">
+                    <span class="material-icons-sharp active">
+                        light_mode
+                    </span>
+                    <span class="material-icons-sharp">
+                        dark_mode
+                    </span>
+                </div>
+
+                <div class="profile">
+                    <div class="info">
+                        <p>Hello, <b>Riya</b></p>
+                        <small class="text-muted">Manager</small>
+                    </div>
+                    <div class="profile-photo">
+                        <img src="images/profile.jpeg" alt="Riya's Profile">
+                    </div>
+                </div>
+
+            </div>
+            <!-- End of Nav -->
+
+            <div class="user-profile">
+                <div class="logo">
+                    <img src="images/logo.jpeg" alt="PaintStore Logo">
+                    <h2>PaintStore</h2>
+                    <p>Exclusive Paint Supplies</p>
+                </div>
+            </div>
+
+            <div class="reminders">
+                <div class="header">
+                    <h2>Reminders</h2>
+                    <span class="material-icons-sharp">
+                        notifications_none
+                    </span>
+                </div>
+
+                <div class="notification">
+                    <div class="icon">
+                        <span class="material-icons-sharp">
+                            volume_up
+                        </span>
+                    </div>
+                    <div class="content">
+                        <div class="info">
+                            <h3>Paint Workshop</h3>
+                            <small class="text-muted">
+                                11:00 AM - 01:00 PM
+                            </small>
+                        </div>
+                        <span class="material-icons-sharp">
+                            more_vert
+                        </span>
+                    </div>
+                </div>
+
+                <div class="notification deactive">
+                    <div class="icon">
+                        <span class="material-icons-sharp">
+                            palette
+                        </span>
+                    </div>
+                    <div class="content">
+                        <div class="info">
+                            <h3>New Paint Arrivals</h3>
+                            <small class="text-muted">
+                                03:30 PM - 04:00 PM
+                            </small>
+                        </div>
+                        <span class="material-icons-sharp">
+                            more_vert
+                        </span>
+                    </div>
+                </div>
+
+                <div class="notification deactive">
+                    <div class="icon">
+                        <span class="material-icons-sharp">
+                            meeting_room
+                        </span>
+                    </div>
+                    <div class="content">
+                        <div class="info">
+                            <h3>Store Meeting</h3>
+                            <small class="text-muted">
+                                05:00 PM - 06:00 PM
+                            </small>
+                        </div>
+                        <span class="material-icons-sharp">
+                            more_vert
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="add-reminder">
+                <span class="material-icons-sharp">
+                    add_circle
+                </span>
+                <h3>Add New Reminder</h3>
+            </div>
+        </div>
+        <!-- End of Right Section -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
